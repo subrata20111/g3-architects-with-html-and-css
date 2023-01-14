@@ -124,9 +124,6 @@ nav{
     align-items: flex-start;
     gap: 80px;
 }
-/* .article-field{
-    width: 586px;
-} */
 .aside-bar{
     display: flex;
 }
@@ -257,5 +254,34 @@ nav{
         left: 35%;
     }
     /* Section-1 end */
+
+    /* section 2 */
+    .section-2{
+        margin: 0 40px 20px 40px;
+        max-width: 560px;
+    }
+    .section-2-container{
+        flex-direction: column;
+    }
+    .aside-hr{
+        height: 100px;
+        width: 5px;
+        background: #FF900E;
+        border: 0;
+    }
+    .articles{
+        width: 540px;
+    }
+    .section-2-image{
+        position: relative;
+        width: 500px;
+        height: 500px;
+    }
+    .section-2-button{
+        display: none;
+    }
+
+    /* section 2 end  */
+    
 }
 
