@@ -69,3 +69,36 @@ nav{
     height: 600px;
     margin: 45px 185px;
 }
+
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+    }
+    .nav-bar{
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    .header-banner{
+        max-width: 576px;
+    }
+    .banner-info{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .banner-title{
+        font-size: 30px;
+    }
+    .banner-text{
+        font-size: 16px;
+    }
+    .banner-btn{
+        position: relative;
+        left: 35%;
+        padding-bottom: 50px;
+    }
+    .banner-image{
+        width: 500px;
+        height: 400px;
+        margin: 45px 25px;
+    }
+}
