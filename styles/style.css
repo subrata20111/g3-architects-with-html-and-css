@@ -24,9 +24,8 @@ nav{
     gap: 30px;
     
 }
-.menu-items, a{
+.menu-bar{
     list-style: none;
-    text-decoration: none;
     color: #424242;
     font-size: 18px;
     font-weight: 500;
@@ -50,11 +49,59 @@ nav{
     padding-bottom: 30px;
 }
 .banner-btn{
+    height: 64px;
+    width: 180px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
     position: relative;
     left: 45%;
-    padding-bottom: 50px;
 }
-.btn-primary{
+.banner-image{
+    width: 1140px;
+    height: 600px;
+    margin: 45px 185px;
+}
+
+/* Unitl Banner */
+
+/* section-1 style */
+.section-1{
+    margin: 85px 200px;
+}
+
+.section-1-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.section-1-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+.info-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #727272;
+    padding-bottom: 24px;
+}
+.info-title-dark{
+    color: #131313
+}
+.info-title-orange{
+    color: #FF900E
+}
+.info-description{
+    color: #727272;
+    padding-bottom: 32px;
+}
+.btn-section-1{
     height: 64px;
     width: 180px;
     background-color: #FF900E;
@@ -64,13 +111,10 @@ nav{
     font-weight: 600;
     color: white;
 }
-.banner-image{
-    width: 1140px;
-    height: 600px;
-    margin: 45px 185px;
-}
 
-@media screen and (max-width: 576px) {
+
+
+@media only screen and (max-width: 576px) {
     nav {
         flex-direction: column;
     }
@@ -94,11 +138,37 @@ nav{
     .banner-btn{
         position: relative;
         left: 35%;
-        padding-bottom: 50px;
     }
     .banner-image{
         width: 500px;
         height: 400px;
         margin: 45px 25px;
     }
+    /* Unitl Banner */
+
+    /* section-1-start */
+    .section-1{
+        margin: 25px 20px;
+    }
+    
+    .section-1-container{
+        flex-direction: column-reverse;
+    }
+    .section-1-images{
+        grid-template-columns: repeat(1, 1fr);
+        grid-column-gap: 24px;
+        grid-row-gap: 24px;
+    }
+    .info-title{
+        text-align: center;
+    }
+    .info-description{
+        text-align: center;
+    }
+    .btn-section-1{
+        position: relative;
+        left: 35%;
+    }
+    /* Section-1 end */
 }
+
