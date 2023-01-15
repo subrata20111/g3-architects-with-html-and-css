@@ -156,7 +156,7 @@ nav{
 
 /* section 2 style */
 .section-2{
-    margin: 0 180px 100px 180px;
+    margin: 0 180px 0px 180px;
 }
 .section-2-container{
     display: flex;
@@ -378,6 +378,9 @@ footer{
         flex-direction: column;
         padding-top: 20px;
     }
+    .nav-hr{
+        display: none;
+    }
     .header-banner{
         max-width: 576px;
     }
@@ -429,8 +432,8 @@ footer{
 
     /* section 2 */
     .section-2{
-        margin: 0 40px 20px 40px;
-        max-width: 560px;
+        margin: 0 20px 20px 20px;
+        max-width: 500px;
     }
     .section-2-container{
         flex-direction: column;
@@ -442,7 +445,7 @@ footer{
         border: 0;
     }
     .articles{
-        width: 540px;
+        width: 500px;
     }
     .section-2-image{
         position: relative;
@@ -459,11 +462,11 @@ footer{
 
     .section-3-title{
         font-size: 35px;
-        margin-left: 30px;
+        margin-left: 50px;
     }
     .section-3-text{
-        margin-bottom: 50px;
-        margin-left: 30px;
+        margin-bottom: 30px;
+        margin-left: 50px;
     }
     .icon-field{
         flex-direction: column;
@@ -483,7 +486,6 @@ footer{
     }
     .project-info-title{
         font-size: 35px;
-    
     }
     .project-images{
         grid-template-columns: repeat(1, 1fr);
