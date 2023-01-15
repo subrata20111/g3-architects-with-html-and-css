@@ -196,6 +196,76 @@ nav{
 
 /* Section 3 style */
 
+.section-3-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+    margin-left: 100px;
+}
+.section-3-text{
+    color: #727272;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    width: 500px;
+    line-height: 27px;
+}
+.icon-field{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+}
+.section-3-icon{
+    padding: 45px 35px;
+    border: 1px solid #FF900E;
+    border-radius: 5px;
+    margin-bottom: 150px;
+}
+.section-3-icon img{
+    padding-left: 35%;
+}
+.fact-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #424242;
+    text-align: center;
+}
+.fact-description{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+    text-align: center;
+}
+
+/* Style section 4 */
+
+.sponsors-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.sponsors-text{
+    color: #727272;
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+.sponsors-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 130px;
+    margin-bottom: 100px;
+}
+
+
+
 
 
 @media only screen and (max-width: 576px) {
@@ -282,6 +352,45 @@ nav{
     }
 
     /* section 2 end  */
+
+    /* section 3 start  */
+
+    .section-3-title{
+        font-size: 35px;
+        margin-left: 30px;
+    }
+    .section-3-text{
+        margin-bottom: 50px;
+        margin-left: 30px;
+    }
+    .icon-field{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .section-3-icon{
+        padding: 35px 25px;
+        border: 1px solid #FF900E;
+        border-radius: 5px;
+        margin-bottom: 20px;
+    }
+    /* section 3 end  */
+
+    /* section 4 start */
+
+    .sponsors-title{
+        font-size: 35px;
+    }
+    .sponsors-text{
+        max-width: 450px;
+    }
     
+    .sponsors-icon{
+        flex-direction: column;
+        gap: 50px;
+        margin-bottom: 30px;
+    }
 }
+
+
+
 
